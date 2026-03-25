@@ -22,4 +22,4 @@ ENV PORT=10000
 ENV PYTHONPATH=/app
 
 # Comando para rodar o Gunicorn apontando para o wsgi.py
-CMD ["gunicorn", "--bind", ":10000", "wsgi:app"]
+CMD ["gunicorn", "--bind", ":${PORT}", "wsgi:app"]
