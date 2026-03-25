@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+.env.*
+instance/
+*.egg-info/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+*.tar
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test/Output
+*.log
+*_output*.txt
+*.bak
+*.tmp
+*.swp
+*.zip
+*.tar.gz
+*.7z
+*.pdf
