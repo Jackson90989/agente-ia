@@ -15,9 +15,11 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 # Copia o restante do código
 COPY . .
 
+
 # Define variáveis de ambiente padrão
 ENV PYTHONUNBUFFERED=1
 ENV PORT=10000
+ENV PYTHONPATH=/app
 
 # Comando para rodar o Gunicorn apontando para o wsgi.py
 CMD ["gunicorn", "--bind", ":10000", "wsgi:app"]
