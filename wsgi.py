@@ -1,1 +1,1 @@
-# Placeholder para wsgi.py
+from super_agente_simples import app
